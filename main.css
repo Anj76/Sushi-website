@@ -1,0 +1,62 @@
+body{
+    background-image: url("deep\ water\ background.png");
+    background-size: cover;
+    background-position: center;
+   
+}
+
+h1 {color: white;}
+h2 {color: white;}
+h3 {color: white;}
+h4 {color: white;}
+h5 {color: white;}
+p  {color: white;}
+
+
+#nav {
+    display:flex; 
+    border-style: solid;     
+    justify-content: center;
+    justify-content: space-around;
+    align-items:center;
+    border-color: white;
+    border-width: 5px;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    /* width: 10%; */
+    /* width:33.3%; */
+    /* width:400px */
+}
+
+#nav {
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#nav2 {
+    display:flex;      
+    justify-content: center;
+    justify-content: space-around;
+    color:white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    /* width: 10%; */
+    /* width:33.3%; */
+    /* width:400px */
+}
+
+#nav2 {
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
